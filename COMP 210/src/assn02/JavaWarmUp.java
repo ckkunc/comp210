@@ -73,7 +73,7 @@ public class JavaWarmUp {
     static int getMaxPriceIndex(double[] priceT){
 		// Your code starts here:
         int maxIndex = 0;
-        for (int i = 0; i<priceT.length; i++) {
+        for (int i = 0; i < priceT.length; i++) {
             if (priceT[i] >= priceT[maxIndex]) {
                 maxIndex = i;
             }
@@ -86,7 +86,7 @@ public class JavaWarmUp {
     static int getMinPriceIndex(double[] priceT){
 		// Your code starts here:
         int minIndex = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < priceT.length; i++) {
             if (priceT[i] <= priceT[minIndex]) {
                 minIndex = i;
             }
