@@ -86,8 +86,12 @@ public class JavaWarmUp {
     static int getMinPriceIndex(double[] priceT){
 		// Your code starts here:
         int minIndex = 0;
-
-        return(0); // modify this as well
+        for (int i = 0; i < n; i++) {
+            if (priceT[i] <= priceT[minIndex]) {
+                minIndex = i;
+            }
+        }
+        return minIndex; // modify this as well
 		// Your code ends here.
     }
 }
