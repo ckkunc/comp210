@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27102583-bafe-41db-9a4a-ea20a2e57d13" name="Changes" comment="">
+    <list default="true" id="27102583-bafe-41db-9a4a-ea20a2e57d13" name="Changes" comment="Functionality for all requirements except average profit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/COMP 210/src/assn02/JavaWarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/COMP 210/src/assn02/JavaWarmUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,27 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/Chris/Downloads/monokai-pro-jetbrains.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chris/Downloads/monokai-pro-jetbrains.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.assn02.JavaWarmUp">
     <configuration name="JavaWarmUp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="20" />
@@ -139,12 +134,26 @@
       <workItem from="1695067549902" duration="601000" />
       <workItem from="1695068181381" duration="42000" />
       <workItem from="1695068236956" duration="326000" />
-      <workItem from="1695073101243" duration="8220000" />
+      <workItem from="1695073101243" duration="8742000" />
+      <workItem from="1695097574608" duration="1157000" />
     </task>
+    <task id="LOCAL-00001" summary="Functionality for all requirements except average profit">
+      <option name="closed" value="true" />
+      <created>1695097227017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695097227017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Functionality for all requirements except average profit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functionality for all requirements except average profit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

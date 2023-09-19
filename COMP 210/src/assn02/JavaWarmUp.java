@@ -53,15 +53,6 @@ public class JavaWarmUp {
         System.out.println(Assembling_fee[lowestItemIndex]);
 		// Your code ends here.
 
-        // Calculate the average price, rating and duration of sales by category.
-        // Maintain following category-wise stats in Arrays
-        int[] numOfCategoriesC = new int[categoriesList.length];// so numOfCategoriesC[0] = # of categories of type categoriesList[0]
-        double[] totPriceC = new double[categoriesList.length]; // total price of each category = sum(price x qty)
-        int[] totQuantityC = new int[categoriesList.length];    // total qty of each category = sum (qty)
-        double[] totAssembling_TimeC = new double[categoriesList.length]; // total Rating of each category = sum(price x qty)
-        double[] totEnergy_and_Device_CostC = new double[categoriesList.length]; // total Duration of each category = sum(price x qty)
-
-
 		// TODO: set the value of catIndex for each i to be such that categoryT[i] == categoriesList[i].
 		// Your code starts here:
         ArrayList<Integer> laptopIndices = new ArrayList<>();
@@ -90,43 +81,61 @@ public class JavaWarmUp {
         for (int index : phoneIndices) {
             totalPhones += quantityT[index];
             averagePhoneFee +=  Assembling_fee[index] * quantityT[index];
-            phoneProfit = (Assembling_fee[index] * quantityT[index] - Assembling_Time[index] * 16) / quantityT[index];
+            phoneProfit = (Assembling_fee[index] * quantityT[index] - Assembling_Time[index] * 16 - Energy_and_Device_Cost[index]);
             phoneProfits.add(phoneProfit);
         }
         averagePhoneFee /= totalPhones;
         double totalPhoneProfit = 0;
-
-        totalPhoneProfit /= phoneIndices.size();
+        for (double profit : phoneProfits) {
+            totalPhoneProfit += profit;
+        }
+        totalPhoneProfit /= totalPhones;
         System.out.println(categoriesList[0]);
         System.out.println(totalPhones);
         System.out.println(df.format(averagePhoneFee));
-        System.out.println(totalPhoneProfit);
-
+        System.out.println(df.format(totalPhoneProfit));
 
         int totalLaptops = 0;
         double averageLaptopFee = 0;
+        double laptopProfit = 0;
+        ArrayList<Double> laptopProfits = new ArrayList<>();
         for (int index : laptopIndices) {
             totalLaptops += quantityT[index];
             averageLaptopFee +=  Assembling_fee[index] * quantityT[index];
-
+            laptopProfit = (Assembling_fee[index] * quantityT[index] - Assembling_Time[index] * 16 - Energy_and_Device_Cost[index]);
+            laptopProfits.add(laptopProfit);
         }
         averageLaptopFee /= totalLaptops;
-
+        double totalLaptopProfit = 0;
+        for (double profit : laptopProfits) {
+            totalLaptopProfit += profit;
+        }
+        totalLaptopProfit /= totalLaptops;
         System.out.println(categoriesList[1]);
         System.out.println(totalLaptops);
         System.out.println(df.format(averageLaptopFee));
-
+        System.out.println(df.format(totalLaptopProfit));
+        ArrayList<Double> smartWatchProfits = new ArrayList<>();
         int totalSmartWatches = 0;
         double averageSmartWatchFee = 0;
+        double smartWatchProfit = 0;
+
         for (int index : smartWatchIndices) {
             totalSmartWatches += quantityT[index];
             averageSmartWatchFee+=  Assembling_fee[index] * quantityT[index];
+            smartWatchProfit = (Assembling_fee[index] * quantityT[index] - Assembling_Time[index] * 16 - Energy_and_Device_Cost[index]);
+            smartWatchProfits.add(smartWatchProfit);
         }
         averageSmartWatchFee /= totalSmartWatches;
-
+        double totalSmartWatchProfit = 0;
+        for (double profit : smartWatchProfits) {
+            totalSmartWatchProfit += profit;
+        }
+        totalSmartWatchProfit /= totalSmartWatches;
         System.out.println(categoriesList[2]);
         System.out.println(totalSmartWatches);
         System.out.println(df.format(averageSmartWatchFee));
+        System.out.println(df.format(totalSmartWatchProfit));
         // Your code ends here.
     }
 
