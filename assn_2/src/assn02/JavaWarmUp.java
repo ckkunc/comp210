@@ -72,7 +72,7 @@ public class JavaWarmUp {
 
 		// TODO: Calculate & Print Category-wise Statistics
 		// Your code starts here:
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("0.00");
 
         int totalPhones = 0;
         double averagePhoneFee = 0;
