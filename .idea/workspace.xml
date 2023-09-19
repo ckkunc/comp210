@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="27102583-bafe-41db-9a4a-ea20a2e57d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP210/COMP210-F23-Assn-1-Part-2-v1.5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP210/Hello World.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP210/assn01_submission.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP 210/src/assn02/JavaWarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/COMP 210/src/assn02/JavaWarmUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +28,81 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ckkunc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6c3d2bda-ce65-437c-b7e6-054c6df19063" />
+        <option name="url" value="https://github.com/ckkunc/comp210.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/COMP 210/src/assn02/JavaWarmUp.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2UlARzs89zEEUmWgrehA6JvQT9k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kyum/comp210-23f-workspace&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "C:/Users/Chris/Downloads/monokai-pro-jetbrains.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.assn02.JavaWarmUp">
+    <configuration name="JavaWarmUp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.JavaWarmUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assn02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assn02.JavaWarmUp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assn02.JavaWarmUp" />
+      <module name="COMP 210" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assn02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="comp210-23f-workspace" />
       <method v="2">
@@ -80,10 +133,21 @@
       <workItem from="1694720070380" duration="19000" />
       <workItem from="1694720106947" duration="99000" />
       <workItem from="1694720215077" duration="94000" />
+      <workItem from="1694975212852" duration="794000" />
+      <workItem from="1695064046320" duration="34000" />
+      <workItem from="1695066936912" duration="572000" />
+      <workItem from="1695067549902" duration="601000" />
+      <workItem from="1695068181381" duration="42000" />
+      <workItem from="1695068236956" duration="326000" />
+      <workItem from="1695073101243" duration="8220000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

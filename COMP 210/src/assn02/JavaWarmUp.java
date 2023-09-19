@@ -1,5 +1,7 @@
 package assn02;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.text.DecimalFormat;
 
 // Here is a starter code that you may optionally use for this assignment.
 // TODO: You need to complete these sections
@@ -44,9 +46,11 @@ public class JavaWarmUp {
         System.out.println(dateT[highestItemIndex]);
         System.out.println(timeT[highestItemIndex]);
         System.out.println(categoryT[highestItemIndex]);
+        System.out.println(Assembling_fee[highestItemIndex]);
         System.out.println(dateT[lowestItemIndex]);
         System.out.println(timeT[lowestItemIndex]);
         System.out.println(categoryT[lowestItemIndex]);
+        System.out.println(Assembling_fee[lowestItemIndex]);
 		// Your code ends here.
 
         // Calculate the average price, rating and duration of sales by category.
@@ -60,13 +64,70 @@ public class JavaWarmUp {
 
 		// TODO: set the value of catIndex for each i to be such that categoryT[i] == categoriesList[i].
 		// Your code starts here:
+        ArrayList<Integer> laptopIndices = new ArrayList<>();
+        ArrayList<Integer> phoneIndices = new ArrayList<>();
+        ArrayList<Integer> smartWatchIndices = new ArrayList<>();
 
+        for (int i = 0; i < n; i++) {
+            if (categoryT[i].equals("laptop")) {
+                laptopIndices.add(i);
+            } else if (categoryT[i].equals("phone")) {
+                phoneIndices.add(i);
+            } else {
+                smartWatchIndices.add(i);
+            }
+        }
 		// Your code ends here.
 
 		// TODO: Calculate & Print Category-wise Statistics
 		// Your code starts here:
+        DecimalFormat df = new DecimalFormat("#.##");
 
-		// Your code ends here.
+        int totalPhones = 0;
+        double averagePhoneFee = 0;
+        double phoneProfit = 0;
+        ArrayList<Double> phoneProfits = new ArrayList<>();
+        for (int index : phoneIndices) {
+            totalPhones += quantityT[index];
+            averagePhoneFee +=  Assembling_fee[index] * quantityT[index];
+            phoneProfit = (Assembling_fee[index] * quantityT[index] - Assembling_Time[index] * 16) / quantityT[index];
+            phoneProfits.add(phoneProfit);
+        }
+        averagePhoneFee /= totalPhones;
+        double totalPhoneProfit = 0;
+
+        totalPhoneProfit /= phoneIndices.size();
+        System.out.println(categoriesList[0]);
+        System.out.println(totalPhones);
+        System.out.println(df.format(averagePhoneFee));
+        System.out.println(totalPhoneProfit);
+
+
+        int totalLaptops = 0;
+        double averageLaptopFee = 0;
+        for (int index : laptopIndices) {
+            totalLaptops += quantityT[index];
+            averageLaptopFee +=  Assembling_fee[index] * quantityT[index];
+
+        }
+        averageLaptopFee /= totalLaptops;
+
+        System.out.println(categoriesList[1]);
+        System.out.println(totalLaptops);
+        System.out.println(df.format(averageLaptopFee));
+
+        int totalSmartWatches = 0;
+        double averageSmartWatchFee = 0;
+        for (int index : smartWatchIndices) {
+            totalSmartWatches += quantityT[index];
+            averageSmartWatchFee+=  Assembling_fee[index] * quantityT[index];
+        }
+        averageSmartWatchFee /= totalSmartWatches;
+
+        System.out.println(categoriesList[2]);
+        System.out.println(totalSmartWatches);
+        System.out.println(df.format(averageSmartWatchFee));
+        // Your code ends here.
     }
 
     // TODO: Find index of item with the highest price per unit.
