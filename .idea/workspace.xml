@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="200e918d-971a-410f-b211-04657a2fea2c" name="Changes" comment="Finished ass04">
+    <list default="true" id="200e918d-971a-410f-b211-04657a2fea2c" name="Changes" comment="COMMIT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/210/src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/210/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/COMP210-F23-Assn5-v1.4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn02/JavaWarmUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn03/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn03/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn03/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn03/NodeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/COMP210-F23-Assn4-v2.4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/EmptyBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/NonEmptyBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn04/assn04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/BinaryHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/MaxBinHeapER.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/Prioritized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/210/src/assn05/SimpleEmergencyRoom.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +57,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2VbLqIrEEKU1IvkVfcpjpvhhUKx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,12 +69,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Chris/IdeaProjects/comp210",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -71,8 +94,15 @@
       <workItem from="1696887357086" duration="17937000" />
       <workItem from="1698015863992" duration="130000" />
       <workItem from="1698016307729" duration="3052000" />
-      <workItem from="1698083757078" duration="14409000" />
-      <workItem from="1699497281713" duration="1190000" />
+      <workItem from="1698083757078" duration="13789000" />
+      <workItem from="1698130027845" duration="19000" />
+      <workItem from="1699498606976" duration="53000" />
+      <workItem from="1699498668880" duration="10000" />
+      <workItem from="1699502700274" duration="11000" />
+      <workItem from="1699502712744" duration="622000" />
+      <workItem from="1700492276422" duration="4000" />
+      <workItem from="1700885738400" duration="8000" />
+      <workItem from="1700885812122" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="Final, 100/100">
       <option name="closed" value="true" />
@@ -90,13 +120,13 @@
       <option name="project" value="LOCAL" />
       <updated>1696918603580</updated>
     </task>
-    <task id="LOCAL-00003" summary="Finished ass04">
+    <task id="LOCAL-00003" summary="COMMIT">
       <option name="closed" value="true" />
-      <created>1698127780288</created>
+      <created>1699498649538</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1698127780288</updated>
+      <updated>1699498649538</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -107,7 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final, 100/100" />
     <MESSAGE value="100/100" />
-    <MESSAGE value="Finished ass04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished ass04" />
+    <MESSAGE value="COMMIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMIT" />
   </component>
 </project>
